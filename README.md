@@ -6,7 +6,7 @@ William Sivutha Poch <br>
 in collaboration with Intelligent Systems Laboratory and AU Library <br>
 <br>
 <br>
-The goal of this project was to create a system which could detect, track and count people entering the AU Library. This repository consists of the backend program which utilizes pre-trained people detection models and a pre-made Kalman Filter algorithm provided by ISL.
+The goal of this project was to create a system which could detect, track and count people entering the AU Library. This repository consists of the backend program which utilizes pre-trained people detection models, a pre-made Kalman Filter algorithm, and various other classes created and provided by ISL.
 <br>
 Project Structure <br>
 <br>│   run.py - Main Program. Contains folder paths, video input and model inputs. 

@@ -3,8 +3,9 @@
 
 import numpy as np
 import cv2
-import tensorflow as tf
-
+# import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 class Detector:
     def __init__(self, path_to_ckpt):
         self.path_to_ckpt = path_to_ckpt

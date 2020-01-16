@@ -8,8 +8,8 @@ from __future__ import division, print_function, absolute_import
 import time
 import datetime
 import numpy as np
-from tracker.person import Person
-from tracker.util import get_midpoint, gaussian_test, get_distance
+from utils.person import Person
+from utils.util import get_midpoint, gaussian_test, get_distance
 
 
 class PeopleTracker(object):
@@ -23,12 +23,11 @@ class PeopleTracker(object):
         self.passed = None
         self.count = count
         self.people_id = 0
-        self.ToD = None
         self.morning = 0
         self.afternoon = 0
         self.date = datetime.date.today()
 
-    def update(self, points=[], time="", update_type='distance'):
+    def update(self, points=[], update_type='distance'):
         """ Associate the existing people trackers with new detected points
         Arguments
         ---------
@@ -38,7 +37,6 @@ class PeopleTracker(object):
         #============= loop through points with distances =============
         self.trackers = []
         self.count = len(points)
-        self.ToD = time
         people_ids = []
         new_people = []
         for point in points:
@@ -95,7 +93,7 @@ class PeopleTracker(object):
                     person.did_enter = False
                     person.crossed_lines = []
                     print("New Entry. Count: %s" %self.entries)
-                    if self.ToD == "Morning":
+                    if datetime.datetime.now().strftime("%H:%M:%S") < "12:00:00":
                         self.morning += 1
                     else:
                         self.afternoon += 1
@@ -139,6 +137,5 @@ class PeopleTracker(object):
             result['morning'] = self.morning
             result['afternoon'] = self.afternoon
             result['date'] = str(datetime.date.today())
-            result['ToD'] = self.ToD
             # result['trackers'] = self.get_tracker_dictionary()
             return result

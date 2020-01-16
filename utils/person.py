@@ -9,7 +9,7 @@ from __future__ import division, print_function, absolute_import
 from math import sqrt
 import numpy as np
 import cv2
-from tracker.boundary import Line, Params
+from utils.boundary import Line, Params
 
 class KalmanTracker(object):
     """

@@ -30,8 +30,6 @@ def update_csv(row):
 
         if lines[len(lines)-1][:1] == row[:1]:
             lines[len(lines)-1] = row
-            print(row[:1])
-            print(row)
 
             with open(filepath, 'w', newline='') as writeFile:
                 writer = csv.writer(writeFile)
@@ -39,11 +37,11 @@ def update_csv(row):
         else: 
             with open(filepath, 'a', newline='') as writeFile:
                 writer = csv.writer(writeFile)
-                writer.writerow(row)
+                writer.writerows(row)
     except FileNotFoundError:
-        with open(filepath, 'w', newline='') as writeFile:
+        with open(filepath, 'a', newline='') as writeFile:
             writer = csv.writer(writeFile)
-            writer.writerow(row)
+            writer.writerows(row)
     print("Done!")
     
 
@@ -65,7 +63,7 @@ def main():
     detector = Detector("model/frozen_inference_graph.pb")
     
     # streamer = FileVideoStream(stream).start()
-    streamer = WebcamVideoStream("3.mp4").start()
+    streamer = WebcamVideoStream("1.mp4").start()
     # streamer =  RTSPVideoFeed(stream)
     # streamer.open()
 
@@ -93,22 +91,18 @@ def main():
                 #     ToD = "Afternoon"
 
                 frame = imutils.resize(frame, width=640)
-                points = detector.detect(frame, (20, 40), (100, 200), threshold=0.4)
+                points = detector.detect(frame, (20, 40), (100, 200), threshold=0.25)
                 tracker.update(points, update_type='distance')
                 tracker.check()
                 data = tracker.get_data(type= 'dict')
                 
-                coords = tracker.get_tracker_dictionary()
-                # print(coords)
-                if coords:
-                    for k, v in coords.items():
-                        print(k, v)
-                        cv2.circle(frame, (v['center'][0], v['center'][1]), 4, (0, 255, 0), -1)
-                        cv2.rectangle(frame, (v['coord']),
-                            (0, 255, 0), 2)
-                # for c in coords:
-                #     
-
+                coords = tracker.get_trackers()
+                
+                # Show detection boxes
+                # if coords:
+                #     cv2.rectangle(frame, (coords[0][1], coords[0][0]), 
+                #     (coords[0][3], coords[0][2]),
+                #         (0, 255, 0), 2)
                 for bound in entry_boundaries:
                     points  = bound.get_lines()
                     for point in points:
@@ -160,11 +154,7 @@ def main():
         except Exception:
             import logging
             logging.exception('Oops: error occurred')
-            streamer.release()
-            writer.release()
             sys.exit(1)
-            return
-            
     streamer.release()
     writer.release()
     return

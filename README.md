@@ -7,3 +7,33 @@ in collaboration with Intelligent Systems Laboratory and AU Library <br>
 <br>
 <br>
 The goal of this project was to create a system which could detect, track and count people entering the AU Library. This repository consists of the backend program which utilizes pre-trained people detection models and a pre-made Kalman Filter algorithm provided by ISL.
+<br>
+Project Structure <br>
+│   run.py
+│
+├───model
+│   │   checkpoint
+│   │   frozen_inference_graph.pb
+│   │   model.ckpt.data-00000-of-00001
+│   │   model.ckpt.index
+│   │   model.ckpt.meta
+│   │   pipeline.config
+│   │
+│   └───saved_model
+│       │   saved_model.pb
+│       │
+│       └───variables
+├───output
+│       16-46.avi
+│       peoplecount.csv
+│
+├───utils
+│   │   boundary.py
+│   │   detector.py
+│   │   filevideostream.py
+│   │   gcloud.py
+│   │   person.py
+│   │   stream.py
+│   │   tracker.py
+│   │   util.py
+│   │

@@ -1,0 +1,13 @@
+1.	Python 3.5 or Python 2.7 with pip
+2.	OpenCV
+3.	Google Cloud SDK
+4.	TensorFlow-GPU 1.14
+5.	NVIDIA® GPU drivers
+6.	NVIDIA® CUDA® Toolkit
+7.	NVIDIA® cuDNN SDK (>= 7.6)
+8.	imutils
+9.	numpy
+10.	pandas
+11.	googleapiclient
+12.	requests
+13.	scipy

@@ -9,8 +9,9 @@ in collaboration with Intelligent Systems Laboratory and AU Library <br>
 The goal of this project was to create a system which could detect, track and count people entering the AU Library. This repository consists of the backend program which utilizes pre-trained people detection models, a pre-made Kalman Filter algorithm, and various other classes created and provided by ISL.
 <br>
 **Not all files are included in this repository** <br>
-*Missing files: - model: folder where the detection model is located.
-<br>                - output: folder where csv file is output and videos are saved. <br>*
+*Required Files and folers: <br>
+  - model: location of detection model. <br>
+  - output: folder where csv file is output and videos are saved. <br>*
 Project Structure <br>
 <br>│   run.py - Main Program. Contains folder paths, video input and model inputs. 
 <br>│

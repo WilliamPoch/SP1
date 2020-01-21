@@ -14,11 +14,11 @@ The goal of this project was to create a system which could detect, track and co
 *Required Files and folers: <br>*
   - model: location of detection model. <br>
   - output: folder where csv file is output and videos are saved. <br>
-
+  - video stream link: video link is no longer available. Local video files can still be used, simply replace the link with the file path/video name.
 <br>
-<br>
+...
 <br> 
-Project Structure <br>
+## Project Structure <br>
 <br>│   run.py - Main Program. Contains folder paths, video input and model inputs. 
 <br>│
 <br>├───model - Model used ssd_mobilenet_v2_coco

@@ -5,8 +5,10 @@ People Analytics for the AU Library <br>
 William Sivutha Poch <br>
 in collaboration with Intelligent Systems Laboratory and AU Library <br>
 <br>
+## ABSTRACT
+The AU library will go through a transformation. This is because a lot of the human resources and efforts are being wasted on simple tasks that can be done by the technology. For instance, there is a staff member who sits at the door of the library and keeps a count of the people going in and out of the library. Our project is aimed at developing and implementing a system that can be used to automate this task within the library. Specifically, we will focus on tracking people entering the library. The goal is to create an automated system which can record the number of visitors in the library each day. And provide a website to display this information. Doing this would allow the staff to engage in more meaningful and valuable tasks. The staff could be employed to assist students, manage the library inventory, or be employed elsewhere within the school. The library would be able to operate more efficiently and for longer every day. Also, the data and statistics collected from the system could be used to make more informed decisions about the library.
 <br>
-The goal of this project was to create a system which could detect, track and count people entering the AU Library. This repository consists of the backend program which utilizes pre-trained people detection models and a pre-made Kalman Filter algorithm. 
+The main aim of our project is to create a system or a package in which the library can use to replace the staff manually counting people that enter the library. Our project will focus on using pre-trained people detection models to create a system to detect, track, count people entering the library, and then using the counting data, display people analytics through our website. This repository consists of the backend program which utilizes pre-trained people detection models and a pre-made Kalman Filter algorithm. 
 <br>
 <br> **See requirements.txt for software requirements. Software setups may vary.**
 <br>

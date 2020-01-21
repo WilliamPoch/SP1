@@ -12,10 +12,9 @@ The goal of this project was to create a system which could detect, track and co
 <br>
 **Not all files are included in this repository** <br>
 *Required Files and folers: <br>*
-  - model: location of detection model. <br>
-  - output: folder where csv file is output and videos are saved. <br>
+  - model: location of detection model. 
+  - output: folder where csv file is output and videos are saved.
   - video stream link: video link is no longer available. Local video files can still be used, simply replace the link with the file path/video name.
-<br>
 [//]: # (Hello)
 ## Website <br>
 Website can be found here: [link](https://library-258507.appspot.com) <br>

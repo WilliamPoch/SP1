@@ -16,6 +16,7 @@ The goal of this project was to create a system which could detect, track and co
   - output: folder where csv file is output and videos are saved. <br>
  <br>
  <br>
+ <br> 
 ## Project Structure <br>
 <br>│   run.py - Main Program. Contains folder paths, video input and model inputs. 
 <br>│

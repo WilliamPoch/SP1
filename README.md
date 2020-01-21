@@ -17,7 +17,7 @@ The goal of this project was to create a system which could detect, track and co
   - video stream link: video link is no longer available. Local video files can still be used, simply replace the link with the file path/video name.
 ## Website <br>
 Website can be found here: [link](https://library-258507.appspot.com) <br>
-![Alt text](https://github.com/WilliamPoch/SP1Website/tree/master/img/screen.png "Optional Title")
+![website](https://github.com/WilliamPoch/SP1Website/blob/master/img/screen.png)
 
 [Github](https://github.com/WilliamPoch/SP1Website) <br>
 <br> 

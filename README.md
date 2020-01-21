@@ -18,7 +18,7 @@ The main aim of our project is to create a system or a package in which the libr
 Website can be found here: [link](https://library-258507.appspot.com) <br>
 ![website](https://github.com/WilliamPoch/SP1Website/blob/master/img/screen.png)
 
-[Github](https://github.com/WilliamPoch/SP1Website) <br>
+More details can be found here: [Github](https://github.com/WilliamPoch/SP1Website) <br>
 <br> 
 ## Project Structure <br>
 <br>│   run.py - Main Program. Contains folder paths, video input and model inputs. 

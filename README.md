@@ -15,9 +15,10 @@ The goal of this project was to create a system which could detect, track and co
   - model: location of detection model. 
   - output: folder where csv file is output and videos are saved.
   - video stream link: video link is no longer available. Local video files can still be used, simply replace the link with the file path/video name.
-[//]: # (Hello)
 ## Website <br>
 Website can be found here: [link](https://library-258507.appspot.com) <br>
+![Alt text](https://github.com/WilliamPoch/SP1Website/tree/master/img/screen.png "Optional Title")
+
 [Github](https://github.com/WilliamPoch/SP1Website) <br>
 <br> 
 ## Project Structure <br>

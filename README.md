@@ -1,9 +1,7 @@
 # SP1
 ## Senior Project 1 (1/2019)<br>
 People Analytics for the AU Library <br>
-<br>
-William Sivutha Poch <br>
-in collaboration with Intelligent Systems Laboratory and AU Library <br>
+
 <br>
 The main aim of our project is to create a system or a package in which the library can use to replace the staff manually counting people that enter the library. Our project will focus on using pre-trained people detection models to create a system to detect, track, count people entering the library, and then using the counting data, display people analytics through our website. This repository consists of the backend program which utilizes pre-trained people detection models and a pre-made Kalman Filter algorithm. 
 

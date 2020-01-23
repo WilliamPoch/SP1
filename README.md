@@ -8,7 +8,7 @@ The main aim of our project is to create a system or a package in which the libr
 <br> **See requirements.txt for software requirements. Software setups may vary.**
 <br>
 **Not all files are included in this repository** <br>
-**Some files are created by other authors**
+**Some files are created by other authors** <br>
 *Required Files and folers: <br>*
   - model: location of detection model. 
   - output: folder where csv file is output and videos are saved.

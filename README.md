@@ -51,6 +51,9 @@ More details can be found here: [Github](https://github.com/WilliamPoch/SP1Websi
 <br>
 
 ## Project Implementation<br>
+<br>
+![chart](https://github.com/WilliamPoch/SP1/blob/master/flow.png) <br>
+<br>
 When the program is run, the boundary lines are created and a connection to the IP camera is made with OpenCV. Once it is established, the video is passed frame by frame using imutils to the detector where it uses the pre-trained “ssd_mobilenet_v2_coco” object detection model and determines if a person is present. 
 <br>
 <br>

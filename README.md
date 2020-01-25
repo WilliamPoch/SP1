@@ -15,8 +15,7 @@ The main aim of our project is to create a system or a package in which the libr
   - video stream link: video link is no longer available. Local video files can still be used, simply replace the link with the file path/video name.
 ## Website <br>
 Website can be found here: [link](https://library-258507.appspot.com) <br>
-![website](https://github.com/WilliamPoch/SP1Website/blob/master/img/screen.png)
-![website](https://github.com/WilliamPoch/SP1/blob/master/flow.png)
+![website](https://github.com/WilliamPoch/SP1Website/blob/master/img/screen.png) <br>
 More details can be found here: [Github](https://github.com/WilliamPoch/SP1Website) <br>
 <br> 
 ## Project Structure <br>
@@ -52,7 +51,6 @@ More details can be found here: [Github](https://github.com/WilliamPoch/SP1Websi
 
 ## Project Implementation<br>
 <br>
-![website](https://github.com/WilliamPoch/SP1/blob/master/flow.png) <br>
 When the program is run, the boundary lines are created and a connection to the IP camera is made with OpenCV. Once it is established, the video is passed frame by frame using imutils to the detector where it uses the pre-trained “ssd_mobilenet_v2_coco” object detection model and determines if a person is present. 
 <br>
 <br>

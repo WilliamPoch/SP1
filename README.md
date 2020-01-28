@@ -9,10 +9,9 @@ The main aim of our project is to create a system or a package in which the libr
 <br>
 **Not all files are included in this repository** <br>
 **Some files are created by other authors** <br>
-*Required Files and folers: <br>*
-  - model: location of detection model. 
-  - output: folder where csv file is output and videos are saved.
-  - video stream link: video link is no longer available. Local video files can still be used, simply replace the link with the file path/video name.
+<br>
+*Note:* <br>
+*Inside* **run.py** *the video stream should be changed to a local file or stream IP address depending.*
 ## Website <br>
 Website can be found here: [link](https://library-258507.appspot.com) <br>
 ![website](https://github.com/WilliamPoch/SP1Website/blob/master/img/screen.png) <br>

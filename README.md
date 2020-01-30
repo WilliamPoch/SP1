@@ -1,4 +1,5 @@
 # SP1
+***This project has been finalized and submitted, and thus will no longer be worked on for the forseeable future.***
 ## Senior Project 1 (1/2019)<br>
 People Analytics for the AU Library <br>
 

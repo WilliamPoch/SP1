@@ -15,7 +15,7 @@ The main aim of our project is to create a system or a package in which the libr
 *Inside* **run.py** *the video stream should be changed to a local file or stream IP address depending.*
 ## Website <br>
 Website can be found here: [link](https://library-258507.appspot.com) <br>
-![website](https://github.com/WilliamPoch/SP1Website/blob/master/img/screen.png) <br>
+![website](https://github.com/WilliamPoch/SP1Website/blob/master/img/sc.png) <br>
 More details can be found here: [Github](https://github.com/WilliamPoch/SP1Website) <br>
 <br> 
 ## Project Structure <br>

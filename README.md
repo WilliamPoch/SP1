@@ -18,6 +18,8 @@ Website can be found here: [link](https://library-258507.appspot.com) <br>
 ![website](https://github.com/WilliamPoch/SP1Website/blob/master/img/sc.png) <br>
 More details can be found here: [Github](https://github.com/WilliamPoch/SP1Website) <br>
 <br> 
+[Prototype Vers.](https://github.com/WilliamPoch/people-counting)
+<br>
 ## Project Structure <br>
 <br>│   run.py - Main Program. Contains folder paths, video input and model inputs. 
 <br>│
